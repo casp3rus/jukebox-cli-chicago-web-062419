@@ -29,7 +29,9 @@ end
 
 def list(songs)
   songs.each do |song|
-    puts "#{song}"
+    i = 1
+    puts "#{i}. #{song}"
+    i += 1
   end
 end
 
