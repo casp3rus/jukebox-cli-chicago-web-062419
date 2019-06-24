@@ -19,7 +19,7 @@ songs = [
  
 # puts say_hello(users_name)
 
-def help 
+def help1 
   puts "I accept the following commands:"
   puts "- help : displays this help message"
   puts "- list : displays a list of songs you can play"
