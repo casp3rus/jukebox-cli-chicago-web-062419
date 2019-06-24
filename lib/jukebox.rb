@@ -19,15 +19,15 @@ songs = [
  
 # puts say_hello(users_name)
 
-def help1 
+def help
   puts "I accept the following commands:"
-  puts ""
   puts "- help : displays this help message"
   puts "- list : displays a list of songs you can play"
   puts "- play : lets you choose a song to play"
   puts "- exit : exits this program"
 end
 
-def list
-  
+def list(songs)
+  songs.each do |song|
+  puts songs[song]
 end
