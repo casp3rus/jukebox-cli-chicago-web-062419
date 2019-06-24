@@ -28,8 +28,8 @@ def help
 end
 
 def list(songs)
+  i = 1
   songs.each do |song|
-    i = 1
     puts "#{i}. #{song}"
     i += 1
   end
