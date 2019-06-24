@@ -28,6 +28,7 @@ def help
 end
 
 def list(songs)
-  songs.each do |song|
-  puts songs[song]
+  songs.each_with_index do |index|
+    puts songs[index]
+  end
 end
